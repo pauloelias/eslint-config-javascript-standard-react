@@ -13,6 +13,7 @@ This package is heavily inspired by [Wes Bos's `No-Sweat™ Eslint and Prettier 
 - Lints + Fixes JavasSript inside of html script tags
 - Lints + Fixes JavasScipt via [eslint-config-standard](https://github.com/standard/eslint-config-standard)
 - Lints + Fixes JSX via [eslint-config-standard-jsx](https://github.com/standard/eslint-config-standard-jsx)
+- Linst + Notifies you of accessibility issues via [eslint-plugin-jsx-a11y](https://github.com/evcohen/eslint-plugin-jsx-a11y)
 
 Custom rules can be [found in the `.eslintrc.js` file.](.eslintrc.js) You can overwrite any of these settings or fork the entire thing to create your own.
 
