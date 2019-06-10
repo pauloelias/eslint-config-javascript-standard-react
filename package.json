@@ -1,7 +1,7 @@
 {
   "name": "@pauloelias/eslint-config-javascript-standard-react",
   "version": "0.0.1",
-  "description": "ESLint and Prettier config for React projects",
+  "description": "ESLint and Prettier config for React projects.",
   "keywords": [
     "javascript",
     "ecmascript",
