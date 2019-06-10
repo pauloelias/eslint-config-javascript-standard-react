@@ -1,0 +1,48 @@
+{
+  "name": "@pauloelias/eslint-config-javascript-standard-react",
+  "version": "0.0.1",
+  "description": "ESLint and Prettier config for React projects",
+  "keywords": [
+    "javascript",
+    "ecmascript",
+    "eslint",
+    "eslintconfig",
+    "lint",
+    "config",
+    "prettier"
+  ],
+  "author": {
+    "email": "paulo@pauloelias.com",
+    "name": "Paulo Elias",
+    "url": "https://pauloelias.com/"
+  },
+  "homepage": "https://github.com/pauloelias/eslint-config-javascript-standard-react",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pauloelias/eslint-config-javascript-standard-react.git"
+  },
+  "license": "MIT",
+  "private": false,
+  "engines": {
+    "node": ">=8.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@pauloelias/eslint-config-javascript-standard-core": "^0.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-standard-jsx": "^6.0.2",
+    "eslint-plugin-html": "^5.0.5",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.13.0",
+    "eslint-plugin-react-hooks": "^1.6.0",
+    "prettier": "^1.18.2"
+  },
+  "peerDependencies": {
+    "eslint": "^5",
+    "prettier": "^1"
+  }
+}
