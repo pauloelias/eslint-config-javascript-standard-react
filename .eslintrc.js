@@ -2,7 +2,6 @@ module.exports = {
   "extends": [
     "@pauloelias/eslint-config-javascript-standard-core",
     "standard-jsx",
-    "prettier",
     "prettier/react",
     "plugin:jsx-a11y/recommended",
   ],
