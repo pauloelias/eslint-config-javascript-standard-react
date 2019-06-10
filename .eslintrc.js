@@ -20,5 +20,5 @@ module.exports = {
       }
     ]
   },
-  "plugins": ["prettier", "html", "jsx-a11y", "react", "react-hooks"]
+  "plugins": ["html", "jsx-a11y", "react", "react-hooks"]
 }
