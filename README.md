@@ -32,11 +32,11 @@ Installing this package globally allows you to lint and format ad-hoc JavaScript
 2. Install the package and its peer dependencies:
 
 ```sh
-yarn add --dev eslint eslint-plugin-react prettier @pauloelias/eslint-config-javascript-standard-core @pauloelias/eslint-config-javascript-standard-react
+yarn add --dev eslint prettier @pauloelias/eslint-config-javascript-standard-react
 ```
 
 ```sh
-npm install --save-dev eslint eslint-plugin-react prettier @pauloelias/eslint-config-javascript-standard-core @pauloelias/eslint-config-javascript-standard-react
+npm install --save-dev eslint prettier @pauloelias/eslint-config-javascript-standard-react
 ```
 
 3. Create an `.eslintrc` file in the root of your project (alongside your `package.json`) and add the following:
@@ -73,11 +73,11 @@ npm run lint:fix
 1. Install the package and its peer dependencies globally:
 
 ```sh
-yarn global add eslint eslint-plugin-react prettier @pauloelias/eslint-config-javascript-standard-core @pauloelias/eslint-config-javascript-standard-react
+yarn global add eslint prettier @pauloelias/eslint-config-javascript-standard-react
 ```
 
 ```sh
-npm install -g eslint eslint-plugin-react prettier @pauloelias/eslint-config-javascript-standard-core @pauloelias/eslint-config-javascript-standard-react
+npm install -g eslint prettier @pauloelias/eslint-config-javascript-standard-react
 ```
 
 2. Add a global `.eslintrc` file:
