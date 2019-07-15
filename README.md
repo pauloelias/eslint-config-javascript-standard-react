@@ -126,7 +126,6 @@ Once you have done one, or both, of the above installs. You probably want your e
 ```
 // These are all my auto-save configs
 "editor.formatOnSave": true,
-
 // turn it off for JS and JSX, we will do this via eslint
 "[javascript]": {
   "editor.formatOnSave": false
@@ -134,10 +133,12 @@ Once you have done one, or both, of the above installs. You probably want your e
 "[javascriptreact]": {
   "editor.formatOnSave": false
 },
-
 // tell the ESLint plugin to run on save
 "eslint.autoFixOnSave": true,
-
 // Optional BUT IMPORTANT: If you have the Prettier extension enabled for other languages like CSS and HTML, turn it off for JS since we are doing it through Eslint already
-"prettier.disableLanguages": ["javascript", "javascriptreact"],
+"prettier.disableLanguages": [
+  "javascript",
+  "javascriptreact"
+]
+}
 ```
