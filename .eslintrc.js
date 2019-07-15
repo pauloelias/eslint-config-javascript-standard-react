@@ -20,5 +20,5 @@ module.exports = {
       }
     ]
   },
-  "plugins": ["html", "jsx-a11y", "react", "react-hooks"]
+  "plugins": ["jsx-a11y", "react", "react-hooks"]
 }
