@@ -15,7 +15,8 @@
   "author": {
     "email": "paulo@pauloelias.com",
     "name": "Paulo Elias",
-    "url": "https://www.pauloelias.com/"
+    "url": "https://www.pauloelias.com/",
+    "twitter": "@pauloelias"
   },
   "homepage": "https://github.com/pauloelias/eslint-config-javascript-standard-react",
   "repository": {
