@@ -1,24 +1,29 @@
 module.exports = {
-  "extends": [
-    "@pauloelias/eslint-config-javascript-standard-core",
-    "standard-jsx",
-    "prettier/react",
-    "plugin:jsx-a11y/recommended",
+  extends: [
+    '@pauloelias/eslint-config-javascript-standard-core',
+    'standard-jsx',
+    'prettier/react',
+    'plugin:jsx-a11y/recommended'
   ],
-  "parser": "babel-eslint",
-  "env": {
-    "browser": true,
-    "node": true,
-    "jest": true
+  parser: 'babel-eslint',
+  parserOptions: {
+    ecmaVersion: 2020,
+    sourceType: 'module'
   },
-  "rules": {
-    "prettier/prettier": [
-      "error",
+  env: {
+    browser: true,
+    jest: true
+  },
+  rules: {
+    'prettier/prettier': [
+      'error',
       {
-        "semi": false,
-        "singleQuote": true
+        printWidth: 80,
+        semi: false,
+        singleQuote: true,
+        trailingComma: 'none'
       }
     ]
   },
-  "plugins": ["jsx-a11y", "react", "react-hooks"]
+  plugins: ['jsx-a11y', 'react', 'react-hooks']
 }
