@@ -46,11 +46,12 @@ module.exports = {
         aspects: ['invalidHref']
       }
     ],
-    'react/prop-types': 0,
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
     'react/jsx-uses-vars': [2],
     'react/jsx-no-undef': 1,
-    'react-hooks/rules-of-hooks': 'error',
-    'react-hooks/exhaustive-deps': 'warn'
+    'jsx-quotes': ['error', 'prefer-double'],
+    'react/prop-types': 0
   },
   plugins: ['html', 'prettier', 'standard', 'jsx-a11y', 'react', 'react-hooks']
 }
