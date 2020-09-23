@@ -111,7 +111,7 @@ If you'd like to overwrite eslint or prettier settings, you can add the rules in
 
 ```js
 {
-  "extends": ["@pauloelias/eslint-config-javascript-standard-core"],
+  "extends": ["@pauloelias/eslint-config-javascript-standard-react"],
   "rules": {
     "prettier/prettier": [
       "error",
