@@ -29,11 +29,11 @@ Installing this package globally allows you to lint and format ad-hoc JavaScript
 1. Install the package and its peer dependencies:
 
     ```sh
-    yarn add --dev eslint prettier @pauloelias/eslint-config-javascript-standard-core
+    yarn add --dev eslint prettier @pauloelias/eslint-config-javascript-standard-react
     ```
 
     ```sh
-    npm install --save-dev eslint prettier @pauloelias/eslint-config-javascript-standard-core
+    npm install --save-dev eslint prettier @pauloelias/eslint-config-javascript-standard-react
     ```
 
 1. Create an `.eslintignore` file in the root of your project (alongside your `package.json`) and add the following:
@@ -111,7 +111,7 @@ If you'd like to overwrite eslint or prettier settings, you can add the rules in
 
 ```js
 {
-  "extends": ["@pauloelias/eslint-config-javascript-standard-core"],
+  "extends": ["@pauloelias/eslint-config-javascript-standard-react"],
   "rules": {
     "prettier/prettier": [
       "error",
