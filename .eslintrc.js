@@ -1,4 +1,11 @@
 module.exports = {
+  plugins: ['simple-import-sort', 'react', 'react-hooks', 'jsx-a11y'],
+  extends: [
+    '@pauloelias/eslint-config-javascript-standard-core',
+    'standard-jsx',
+    'plugin:jsx-a11y/recommended',
+    'prettier/react'
+  ],
   parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 2020,
@@ -7,51 +14,24 @@ module.exports = {
     },
     sourceType: 'module'
   },
-  env: {
-    browser: true,
-    es6: true,
-    commonjs: true
-  },
-  extends: [
-    'standard',
-    'prettier',
-    'standard-jsx',
-    'prettier/react',
-    'plugin:jsx-a11y/recommended'
-  ],
   rules: {
-    'arrow-parens': [2, 'as-needed'],
-    camelcase: 2,
-    quotes: [
-      2,
-      'single',
-      {
-        avoidEscape: true,
-        allowTemplateLiterals: true
-      }
-    ],
-    'prettier/prettier': [
-      'error',
-      {
-        printWidth: 80,
-        semi: false,
-        singleQuote: true,
-        trailingComma: 'none'
-      }
-    ],
-    'jsx-a11y/href-no-hash': 'off',
     'jsx-a11y/anchor-is-valid': [
-      'warn',
+      2,
       {
         aspects: ['invalidHref']
       }
     ],
-    'react-hooks/rules-of-hooks': 'error',
-    'react-hooks/exhaustive-deps': 'warn',
-    'react/jsx-uses-vars': [2],
-    'react/jsx-no-undef': 1,
-    'jsx-quotes': ['error', 'prefer-double'],
+    'react-hooks/rules-of-hooks': 2,
+    'react-hooks/exhaustive-deps': 1,
+    'react/jsx-uses-vars': 2,
+    'react/jsx-no-undef': 2,
+    'jsx-quotes': [2, 'prefer-double'],
     'react/prop-types': 0
   },
-  plugins: ['html', 'prettier', 'standard', 'jsx-a11y', 'react', 'react-hooks']
+  env: {
+    browser: true,
+    es2020: true,
+    jest: true,
+    node: true
+  }
 }
