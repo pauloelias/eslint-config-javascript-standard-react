@@ -28,6 +28,11 @@ module.exports = {
     'jsx-quotes': [2, 'prefer-double'],
     'react/prop-types': 0
   },
+  settings: {
+    react: {
+      version: 'detect'
+    }
+  },
   env: {
     browser: true,
     es2020: true,
