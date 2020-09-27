@@ -1,6 +1,6 @@
 {
   "name": "@pauloelias/eslint-config-javascript-standard-react",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "An opinionated ESLint config for React projects.",
   "keywords": [
     "javascript",
