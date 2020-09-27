@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: ['simple-import-sort', 'react', 'react-hooks', 'jsx-a11y'],
+  plugins: ['simple-import-sort', 'import', 'react', 'react-hooks', 'jsx-a11y'],
   extends: [
     '@pauloelias/eslint-config-javascript-standard-core',
     'standard-jsx',
@@ -15,6 +15,12 @@ module.exports = {
     sourceType: 'module'
   },
   rules: {
+    'sort-imports': 'off',
+    'import/order': 'off',
+    'simple-import-sort/sort': 2,
+    'import/first': 2,
+    'import/newline-after-import': 2,
+    'import/no-duplicates': 2,
     'jsx-a11y/anchor-is-valid': [
       2,
       {
